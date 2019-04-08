@@ -113,9 +113,10 @@ define_input(
 )
 
 define_input(
-  definition = selectInput(inputId = 'color_palette', label='Color palette', multiple=FALSE, 
-                           choices = list(Default=get_palette(get_palette_names = TRUE),Unused=get_palette(get_palette_names = TRUE)),
-                           selected = get_palette(get_palette_names = TRUE)[1])
+  definition = selectInput(
+    inputId = 'color_palette', label='Color palette', multiple=FALSE, 
+    choices = list(Default=get_palette(get_palette_names = TRUE),Unused=get_palette(get_palette_names = TRUE)),
+    selected = get_palette(get_palette_names = TRUE)[1])
 )
 
 define_input(
