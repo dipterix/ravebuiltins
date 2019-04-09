@@ -43,8 +43,8 @@ load_scripts(
         #     
         # })
         
-    }),
-    asis=TRUE
+    }), 
+    asis = TRUE
     
 )
 
